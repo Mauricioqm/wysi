@@ -1,0 +1,10 @@
+<div class="card my-3">
+	<img src="{{ district.flag }}" class="card-img-top" alt="{{ district.name }}">
+	<div class="card-body">
+		<h5 class="card-title">{{ district.name }}</h5>
+		<h5 class="card-subtitle">Identifier: {{ district.identifier }}</h5>
+		<p class="card-text">County: {{ district.country }}</p>
+		<p class="card-text">Postal code: {{ district.postalCode }}</p>
+		<a class="btn btn-primary" routerLink="weatherDistrict/{{district.name}}/{{district.identifier}}">Go</a>
+	</div>
+</div>

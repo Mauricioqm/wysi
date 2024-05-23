@@ -1,0 +1,19 @@
+{
+    "districts": [
+        {
+            "name": "District of Columbia",
+            "country": "USA",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/800px-Flag_of_Washington%2C_D.C.svg.png",
+            "postalCode": 29044,
+            "identifier": "LWX"
+
+        },
+        {
+            "name": "Kansas",
+            "country": "USA",
+            "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/750px-Flag_of_Kansas.svg.png",
+            "postalCode": 66012,
+            "identifier": "TOP"
+        }
+    ]
+}

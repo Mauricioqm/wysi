@@ -1,0 +1,9 @@
+<div class="container my-5">
+    <h1>Weather forecasting</h1>
+    <hr />
+    <div class="row">
+        <div *ngFor="let district of districts" class="col-xl-4 col-sm-6 col-xs-12">
+            <wisy-card-district [district]="district"></wisy-card-district>
+        </div>
+    </div>
+</div>
